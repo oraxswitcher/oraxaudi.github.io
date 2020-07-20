@@ -3,7 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Grenze+Gotisch:wght@300&display=swap" rel="stylesheet"> 	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Grenze+Gotisch:wght@300&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">    	
+	<link rel="stylesheet" href="css/style.css">
 	<title>Audi | HOME</title>
 </head>
 <body>
@@ -77,10 +79,48 @@
 				</transition>
 			</div>
 		</section>
-		<footer>
-			
-		</footer>
 	</div>
+	<footer>
+			<div class="social">
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="far fa-envelope"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+			</div>
+			<div class="footer-back">
+				<div class="footer-infos">
+					<div class="footer-infos1">
+						<h2>Services</h2>
+						<a href="#">myAudi</a>
+						<a href="#">Press</a>
+						<a href="#">Contact</a>
+						<a href="#">Website Feedback</a>
+					</div>
+					<div class="footer-infos1">
+						<h2>Experience Audi</h2>
+						<a href="#">Models & Technology</a>
+						<a href="#">Mobility & Trends</a>
+						<a href="#">Inspiration & Lifestyle</a>
+						<a href="#">Audi Sport</a>
+					</div>
+					<div class="footer-infos1">
+						<h2>AUDI AG</h2>
+						<a href="#">Strategy</a>
+						<a href="#">Investor Relations</a>
+						<a href="#">Sustainability</a>
+						<a href="#">Career</a>
+					</div>
+				</div>
+			</div>
+			<div class="copyrights">
+				<div class="copyright">
+					<p>&copy;AUDI AG. All rights reserved</p>
+				</div>
+			</div>
+		</footer>
+		<script src="https://kit.fontawesome.com/fdddec0283.js" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 		<script src="./JS/app.js"></script>
 </body>
